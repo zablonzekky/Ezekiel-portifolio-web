@@ -12,17 +12,15 @@ const ProjectsPage = () => {
       id: 1,
       title: 'E-commerce Platform',
       category: 'fullstack',
-      description: 'A comprehensive e-commerce solution built with React and Node.js, featuring user authentication, payment processing, inventory management, and an admin dashboard.',
-      detailedDescription: 'This full-stack e-commerce platform was built to handle high-traffic scenarios with a focus on performance and user experience. The frontend uses React with Redux for state management, while the backend is powered by Node.js and Express. The platform includes features like real-time inventory updates, secure payment processing via Stripe, user reviews and ratings, and comprehensive analytics.',
+      description: 'A comprehensive e-commerce solution built with PHP,  and vanilla javascript eaturing user authentication, payment processing, inventory management, and an admin dashboard.',
+      detailedDescription: 'This full-stack e-commerce platform was built to handle high-traffic scenarios with a focus on performance and user experience.',
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Stripe', 'Redux'],
-      github: 'https://github.com/example/ecommerce',
-      live: 'https://example-ecommerce.com',
-      features: [
+      technologies: ['PHP', 'Vanilla js', 'MSQL', ],
+      github: 'https://github.com/zablonzekky/Ecommerce-website',
+        features: [
         'User authentication and authorization',
         'Product catalog with search and filtering',
         'Shopping cart and checkout process',
-        'Payment integration with Stripe',
         'Order tracking and history',
         'Admin dashboard for inventory management'
       ]
@@ -30,19 +28,17 @@ const ProjectsPage = () => {
     {
       id: 2,
       title: 'Task Management App',
-      category: 'frontend',
+      category: 'Fullstack',
       description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
-      detailedDescription: 'This task management application focuses on team collaboration and productivity. Built with Vue.js and Firebase, it offers real-time synchronization across all connected devices. The interface features an intuitive drag-and-drop system for task organization, kanban boards, and comprehensive project tracking.',
+      detailedDescription: 'This task management application focuses on team collaboration and productivity. Built with React.js and python fast api, it offers real-time synchronization across all connected devices. The interface features an intuitive drag-and-drop system for task organization, and comprehensive project tracking.',
       image: 'https://images.pixabay.com/photo/2016/11/30/20/58/programming-1873854_1280.png',
       technologies: ['Vue.js', 'Firebase', 'Tailwind CSS', 'Vuex'],
-      github: 'https://github.com/example/taskmanager',
-      live: 'https://example-taskmanager.com',
+      github: 'https://github.com/zablonzekky/task-management-app',
       features: [
         'Real-time collaboration',
         'Drag-and-drop task organization',
         'Project and team management',
         'Progress tracking and analytics',
-        'File attachments and comments',
         'Mobile-responsive design'
       ]
     },
@@ -51,18 +47,15 @@ const ProjectsPage = () => {
       title: 'Weather Analytics Dashboard',
       category: 'frontend',
       description: 'Real-time weather analytics dashboard with interactive charts, location-based forecasts, and historical data visualization.',
-      detailedDescription: 'A comprehensive weather analytics platform that aggregates data from multiple weather APIs to provide detailed insights and forecasts. The dashboard features interactive charts built with D3.js, real-time weather updates, and historical data analysis for weather patterns.',
+      detailedDescription: 'A comprehensive weather analytics platform that aggregates data from multiple weather APIs to provide detailed insights and forecasts. The dashboard features interactive charts built with React.js, real-time weather updates, and historical data analysis for weather patterns.',
       image: 'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      technologies: ['Angular', 'D3.js', 'TypeScript', 'Weather API'],
-      github: 'https://github.com/example/weather-dashboard',
-      live: 'https://example-weather.com',
+      technologies: ['React', 'vanilla.js', '', 'Weather API'],
+      github: 'https://github.com/zablonzekky/Sentiment-analysis-software',
       features: [
         'Real-time weather data',
         'Interactive data visualizations',
         'Location-based forecasts',
-        'Historical weather analysis',
         'Weather alerts and notifications',
-        'Export functionality for reports'
       ]
     },
     {
@@ -72,35 +65,33 @@ const ProjectsPage = () => {
       description: 'Complete restaurant management system with table booking, menu management, order processing, and inventory tracking.',
       detailedDescription: 'A comprehensive restaurant management solution that streamlines operations from customer booking to kitchen management. The system includes a customer-facing web app for reservations and orders, a kitchen display system, and an admin panel for complete restaurant operations management.',
       image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      technologies: ['React', 'Python', 'Django', 'PostgreSQL', 'Redis'],
-      github: 'https://github.com/example/restaurant-system',
-      live: 'https://example-restaurant.com',
+      technologies: ['PHP', 'codeigniter framework', 'MYSQL',],
+      github: 'https://github.com/zablonzekky/Fedoproject',
       features: [
-        'Table reservation system',
+        'Booking reservation system',
         'Digital menu management',
         'Order processing and tracking',
         'Inventory management',
-        'Staff scheduling',
+        'Hotel location scheduling',
         'Sales analytics and reporting'
       ]
     },
     {
       id: 5,
-      title: 'Social Media Dashboard',
-      category: 'backend',
+      title: 'Sentiment analysis system',
+      category: 'Backend',
       description: 'Backend API for a social media analytics platform with real-time data processing and comprehensive reporting.',
-      detailedDescription: 'A robust backend system designed to handle social media data aggregation and analysis. The API processes millions of social media posts daily, provides real-time analytics, and offers comprehensive reporting tools for social media managers and marketers.',
+      detailedDescription: 'A robust backend system designed to handle social media data aggregation and analysis. The API processes millions of social media posts daily, provides real-time analytics, and offers comprehensive reporting tools for social media managers and marketers categorizing sentiments into Positive,Negative and Neutral.',
       image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?q=80&w=2939&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      technologies: ['Python', 'FastAPI', 'PostgreSQL', 'Redis', 'Celery'],
-      github: 'https://github.com/example/social-api',
-      live: 'https://api.example-social.com',
+      technologies: ['Python', 'Flask',  ' Machine Learning model','PostgreSQL'],
+      github: 'https://github.com/zablonzekky/Sentiment-analysis-web-app',
       features: [
         'Real-time data processing',
         'Social media API integrations',
         'Analytics and reporting',
         'User authentication and permissions',
         'Rate limiting and caching',
-        'Comprehensive API documentation'
+        'Sentiment categorisation'
       ]
     },
     {
@@ -111,8 +102,7 @@ const ProjectsPage = () => {
       detailedDescription: 'A complete learning management system designed for educational institutions and online course providers. The platform supports multimedia content delivery, student assessment tools, progress tracking, and comprehensive course management capabilities.',
       image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       technologies: ['Next.js', 'Node.js', 'MongoDB', 'Socket.io', 'AWS S3'],
-      github: 'https://github.com/example/lms',
-      live: 'https://example-lms.com',
+      github: 'https://github.com/zablonzekky/Elite-Writing',
       features: [
         'Course creation and management',
         'Student enrollment and progress tracking',

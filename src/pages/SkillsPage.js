@@ -36,10 +36,10 @@ const SkillsPage = () => {
         { name: 'Python', level: 88, description: 'Django, Flask, and FastAPI for web development' },
         { name: 'PHP', level: 80, description: 'Laravel and modern PHP development practices' },
         { name: 'REST APIs', level: 95, description: 'Designing and implementing RESTful web services' },
-        { name: 'GraphQL', level: 82, description: 'Query language and runtime for APIs' },
-        { name: 'Microservices', level: 85, description: 'Distributed system architecture and implementation' },
+        { name: 'Django', level: 62, description: 'Python framework' },
+        { name: 'Java spring boot', level: 85, description: 'Java bakend framework' },
         { name: 'Authentication', level: 90, description: 'JWT, OAuth, and security best practices' },
-        { name: 'API Design', level: 92, description: 'Designing scalable and maintainable APIs' }
+        { name: 'Laravel', level: 92, description: 'A complete fullstack php framework' }
       ]
     },
     {
@@ -100,25 +100,7 @@ const SkillsPage = () => {
         { name: 'Chrome DevTools', level: 90, description: 'Debugging and performance optimization' }
       ]
     },
-    {
-      title: 'Soft Skills',
-      icon: (
-        <svg className="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
-        </svg>
-      ),
-      color: 'from-indigo-500 to-indigo-600',
-      skills: [
-        { name: 'Problem Solving', level: 95, description: 'Analytical thinking and creative solutions' },
-        { name: 'Team Leadership', level: 88, description: 'Leading development teams and mentoring' },
-        { name: 'Communication', level: 90, description: 'Technical writing and stakeholder communication' },
-        { name: 'Project Management', level: 85, description: 'Agile methodologies and timeline management' },
-        { name: 'Code Review', level: 92, description: 'Quality assurance and knowledge sharing' },
-        { name: 'Mentoring', level: 87, description: 'Teaching and developing junior developers' },
-        { name: 'Adaptability', level: 93, description: 'Learning new technologies and adapting to change' },
-        { name: 'Client Relations', level: 82, description: 'Requirements gathering and client communication' }
-      ]
-    }
+   
   ];
 
   const certifications = [
@@ -129,22 +111,19 @@ const SkillsPage = () => {
       icon: '☁️'
     },
     {
-      title: 'Google Cloud Professional Developer',
+      title: 'ARTIFICIAL INTELLIGENCE FOR ASSOCIATES AND PRACTIONERS',
       issuer: 'Google Cloud Platform',
-      year: '2022',
-      icon: '🚀'
+      year: '2024',
     },
     {
       title: 'Certified Kubernetes Administrator',
       issuer: 'Cloud Native Computing Foundation',
       year: '2022',
-      icon: '⚙️'
     },
     {
-      title: 'MongoDB Certified Developer',
-      issuer: 'MongoDB University',
-      year: '2021',
-      icon: '🍃'
+      title: 'Django web development',
+      issuer: 'Emobilis Institute if technology',
+      year: '2023',
     }
   ];
 
@@ -162,19 +141,19 @@ const SkillsPage = () => {
           </p>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 max-w-2xl mx-auto">
             <div className="text-center">
-              <div className="text-3xl font-bold text-accent mb-2">50+</div>
+              <div className="text-3xl font-bold text-accent mb-2">20+</div>
               <div className="text-gray-200 text-sm">Technologies</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-accent mb-2">5+</div>
+              <div className="text-3xl font-bold text-accent mb-2">3+</div>
               <div className="text-gray-200 text-sm">Years Experience</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-accent mb-2">100+</div>
+              <div className="text-3xl font-bold text-accent mb-2">30+</div>
               <div className="text-gray-200 text-sm">Projects</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-accent mb-2">15+</div>
+              <div className="text-3xl font-bold text-accent mb-2">5+</div>
               <div className="text-gray-200 text-sm">Certifications</div>
             </div>
           </div>

@@ -103,7 +103,7 @@ const HomePage = () => {
                     className="w-full h-full object-cover" 
                     loading="lazy" 
                     onError={(e) => {
-                      e.target.src = 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2';
+                     
                     }}
                   />
                 </div>
@@ -124,7 +124,7 @@ const HomePage = () => {
               Passionate About Creating Digital Solutions
             </h2>
             <p className="text-lg text-text-secondary max-w-3xl mx-auto leading-relaxed">
-              With over 5 years of experience in full-stack development, I specialize in building scalable web applications 
+              With over 3 years of experience in full-stack development, I specialize in building scalable web applications 
               that deliver exceptional user experiences. My expertise spans modern JavaScript frameworks, cloud technologies, 
               and agile development practices.
             </p>
@@ -133,11 +133,11 @@ const HomePage = () => {
           {/* Stats Grid */}
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
             <div className="text-center">
-              <div className="text-4xl font-bold text-accent mb-2">50+</div>
+              <div className="text-4xl font-bold text-accent mb-2">20+</div>
               <div className="text-text-secondary">Projects Completed</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-accent mb-2">5+</div>
+              <div className="text-4xl font-bold text-accent mb-2">3+</div>
               <div className="text-text-secondary">Years Experience</div>
             </div>
             <div className="text-center">

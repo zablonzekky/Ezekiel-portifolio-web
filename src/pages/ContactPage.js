@@ -49,8 +49,8 @@ const ContactPage = () => {
         </svg>
       ),
       title: 'Email',
-      info: 'ezekiel.wekesa@email.com',
-      link: 'mailto:ezekiel.wekesa@email.com'
+      info: 'ewwabwoba@gmail.com',
+      link: 'https://mail.google.com/mail/u/0/#inbox'
     },
     {
       icon: (
@@ -132,12 +132,12 @@ const ContactPage = () => {
               <h2 className="text-3xl font-heading font-bold text-primary mb-6">
                 Send Me a Message
               </h2>
-              <Card className="p-8">
+              <Card className="p-8 shadow-lg">
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div>
-                      <label htmlFor="name" className="block text-sm font-medium text-text-primary mb-2">
-                        Full Name *
+                    <div className="space-y-2">
+                      <label htmlFor="name" className="block text-sm font-medium text-text-primary mb-1">
+                        Full Name <span className="text-red-500">*</span>
                       </label>
                       <input
                         type="text"
@@ -146,13 +146,13 @@ const ContactPage = () => {
                         value={formData.name}
                         onChange={handleInputChange}
                         required
-                        className="form-input w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition-colors duration-fast"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-200 placeholder-gray-400"
                         placeholder="Your full name"
                       />
                     </div>
-                    <div>
-                      <label htmlFor="email" className="block text-sm font-medium text-text-primary mb-2">
-                        Email Address *
+                    <div className="space-y-2">
+                      <label htmlFor="email" className="block text-sm font-medium text-text-primary mb-1">
+                        Email Address <span className="text-red-500">*</span>
                       </label>
                       <input
                         type="email"
@@ -161,15 +161,15 @@ const ContactPage = () => {
                         value={formData.email}
                         onChange={handleInputChange}
                         required
-                        className="form-input w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition-colors duration-fast"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-200 placeholder-gray-400"
                         placeholder="your@email.com"
                       />
                     </div>
                   </div>
                   
-                  <div>
-                    <label htmlFor="subject" className="block text-sm font-medium text-text-primary mb-2">
-                      Subject *
+                  <div className="space-y-2">
+                    <label htmlFor="subject" className="block text-sm font-medium text-text-primary mb-1">
+                      Subject <span className="text-red-500">*</span>
                     </label>
                     <input
                       type="text"
@@ -178,14 +178,14 @@ const ContactPage = () => {
                       value={formData.subject}
                       onChange={handleInputChange}
                       required
-                      className="form-input w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition-colors duration-fast"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-200 placeholder-gray-400"
                       placeholder="Project inquiry, collaboration, etc."
                     />
                   </div>
                   
-                  <div>
-                    <label htmlFor="message" className="block text-sm font-medium text-text-primary mb-2">
-                      Message *
+                  <div className="space-y-2">
+                    <label htmlFor="message" className="block text-sm font-medium text-text-primary mb-1">
+                      Message <span className="text-red-500">*</span>
                     </label>
                     <textarea
                       id="message"
@@ -194,7 +194,7 @@ const ContactPage = () => {
                       onChange={handleInputChange}
                       required
                       rows="6"
-                      className="form-input w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition-colors duration-fast resize-vertical"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-200 placeholder-gray-400 resize-vertical"
                       placeholder="Tell me about your project, goals, timeline, and any specific requirements..."
                     ></textarea>
                   </div>
@@ -224,12 +224,12 @@ const ContactPage = () => {
                   <Button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full"
+                    className="w-full bg-blue-600 hover:bg-blue-700 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-200 shadow-sm"
                     icon={
                       isSubmitting ? (
-                        <div className="w-5 h-5 animate-spin rounded-full border-2 border-white border-t-transparent"></div>
+                        <div className="w-5 h-5 animate-spin rounded-full border-2 border-white border-t-transparent mr-2"></div>
                       ) : (
-                        <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <svg className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/>
                         </svg>
                       )
@@ -331,7 +331,7 @@ const ContactPage = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
-              href="mailto:ezekiel.wekesa@email.com"
+              href="https://mail.google.com/mail/u/0/#inbox"
               variant="primary"
               icon={
                 <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
