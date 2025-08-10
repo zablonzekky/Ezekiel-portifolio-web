@@ -275,7 +275,7 @@ const ProjectsPage = () => {
                 >
                   GitHub
                 </Button>
-                <Button 
+                {/* <Button 
                   href={selectedProject.live}
                   variant="primary"
                   size="sm"
@@ -286,7 +286,7 @@ const ProjectsPage = () => {
                   }
                 >
                   Live Demo
-                </Button>
+                </Button> */}
               </div>
             </div>
 

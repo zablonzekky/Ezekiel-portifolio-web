@@ -1,6 +1,6 @@
 # HTML
 
-A modern HTML project utilizing Tailwind CSS for building responsive web applications with minimal setup.
+A modern React framework project utilizing Tailwind CSS for building responsive web applications with minimal setup.
 
 ## 🚀 Features
 
@@ -33,16 +33,6 @@ yarn dev
 
 ## 📁 Project Structure
 
-```
-html_app/
-├── css/
-│   ├── tailwind.css   # Tailwind source file with custom utilities
-│   └── main.css       # Compiled CSS (generated)
-├── pages/             # HTML pages
-├── index.html         # Main entry point
-├── package.json       # Project dependencies and scripts
-└── tailwind.config.js # Tailwind CSS configuration
-```
 
 ## 🎨 Styling
 
@@ -73,10 +63,3 @@ The app is built with responsive design using Tailwind CSS breakpoints:
 - `lg`: 1024px and up
 - `xl`: 1280px and up
 - `2xl`: 1536px and up
-
-## 🙏 Acknowledgments
-
-- Built with [Rocket.new](https://rocket.new)
-- Powered by HTML and Tailwind CSS
-
-Built with ❤️ on Rocket.new

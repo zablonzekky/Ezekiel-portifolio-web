@@ -51,12 +51,12 @@ const HomePage = () => {
   ];
 
   const skillsData = [
-    { name: 'React', level: 90, color: 'bg-blue-500' },
-    { name: 'Node.js', level: 85, color: 'bg-green-500' },
+    { name: 'React', level: 95, color: 'bg-blue-500' },
+    { name: 'Node.js', level: 92, color: 'bg-green-500' },
     { name: 'JavaScript', level: 95, color: 'bg-yellow-500' },
-    { name: 'Python', level: 80, color: 'bg-purple-500' },
-    { name: 'MongoDB', level: 75, color: 'bg-red-500' },
-    { name: 'AWS', level: 70, color: 'bg-indigo-500' }
+    { name: 'Python', level: 88, color: 'bg-purple-500' },
+    { name: 'MongoDB', level: 90, color: 'bg-red-500' },
+    { name: 'AWS', level: 85, color: 'bg-indigo-500' }
   ];
 
   return (

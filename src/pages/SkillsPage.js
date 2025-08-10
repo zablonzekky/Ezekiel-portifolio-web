@@ -273,7 +273,7 @@ const SkillsPage = () => {
       </section>
 
       {/* Call to Action Section */}
-      <section className="py-16 lg:py-24 bg-gradient-to-r from-primary to-secondary text-white">
+      {/* <section className="py-16 lg:py-24 bg-gradient-to-r from-primary to-secondary text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl lg:text-4xl font-heading font-bold mb-6">
             Ready to Build Something Amazing?
@@ -299,7 +299,7 @@ const SkillsPage = () => {
             </Button>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };
