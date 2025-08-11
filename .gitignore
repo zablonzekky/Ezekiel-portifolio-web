@@ -1,3 +1,16 @@
+# OS files
 .DS_Store
-node_modules
-.ideagg
+
+# Node dependencies
+node_modules/
+
+# Build output
+build/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Environment variables
+.env
+.env.local
