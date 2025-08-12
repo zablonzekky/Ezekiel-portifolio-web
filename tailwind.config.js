@@ -71,3 +71,23 @@ module.exports = {
   },
   plugins: [],
 }
+// tailwind.config.js
+module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        navy: {
+          700: '#0a192f',
+          800: '#0f2742',
+          900: '#112240'
+        }
+      },
+      dropShadow: {
+        'hero': [
+          '0 2px 4px rgba(0, 0, 0, 0.8)',
+          '0 1px 2px rgba(0, 0, 0, 0.8)'
+        ]
+      }
+    }
+  }
+}
